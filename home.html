@@ -26,26 +26,30 @@
             
             <div class="mid">    
                 <h1>LETS GET GOING...</h1>
+                
                 <div class="modalbox" id="loginmodal">
+                    <fieldset>
                         <form  action="/loggedin.php" method="get">
                             <div class="imgcontainer">
+                                
+                                
                                 <span onclick="document.getElementById('loginmodal').style.display='none'" class="close"> &times;</span>
-                                <img src="skull2.jpg" alt="SKULLL" class="skull">
                             </div></br>
                             <div class="data">
                                 <label><b>USERNAME</b></label></br>
                                 <input type="text" placeholder="ENTER  USERNAME" name="uname" required></br>
                                 <label><b>PASSWORD</b></label></br>
                                 <input type="password" placeholder="ENTER PASSWORD" name="password" required></br>
-                                <button type="submit">LOGIN</button></br>
+                                <button type="submit">LOGIN</button></br></br>
                                 <label>
-                                    <input type="checkbox" checked="unchecked" name="remember">REMEMBER ME</input>
+                                    <input type="checkbox" checked="unchecked" name="remember" style="margin-left:5px;">REMEMBER ME</input>
                                 </label></br>
-                                <span class="forgot" style="text-align='right'">forgot<a href="forgotpassword">PASSWORD?</a></span>
+                                <span class="forgot" >forgot<a href="forgotpassword">PASSWORD?</a></span>
                             </div>
-                        </form>  
+                        </form> 
+                    </fieldset>    
                 </div>  
-                
+            
             </div>
             
             <div class="footer">
